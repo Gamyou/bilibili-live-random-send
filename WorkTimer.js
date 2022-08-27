@@ -55,14 +55,14 @@ const workerTimer = {
     callbacks: {},
     setInterval: (cb, interval, context) => {
         debugger;
-        const id = ++this.id;
-        this.callbacks[id] = { fn: cb, context: context };
+        const id = ++workerTimer.id;
+        workerTimer.callbacks[id] = { fn: cb, context: context };
         worker.postMessage({ command: 'interval:start', interval: interval, id: id });
         return id;
     },
     setTimeout: (cb, timeout, context) => {
-        const id = ++this.id;
-        this.callbacks[id] = { fn: cb, context: context };
+        const id = ++workerTimer.id;
+        workerTimer.callbacks[id] = { fn: cb, context: context };
         worker.postMessage({ command: 'timeout:start', timeout: timeout, id: id });
         return id;
     },
@@ -72,14 +72,14 @@ const workerTimer = {
         switch (e.data.message) {
             case 'interval:tick':
             case 'timeout:tick':
-                const callbackItem = this.callbacks[e.data.id];
+                const callbackItem = workerTimer.callbacks[e.data.id];
                 if (callbackItem && callbackItem.fn)
                     callbackItem.fn.apply(callbackItem.context);
 
                 break;
             case 'interval:cleared':
             case 'timeout:cleared':
-                delete this.callbacks[e.data.id];
+                delete workerTimer.callbacks[e.data.id];
                 break;
         }
     },
