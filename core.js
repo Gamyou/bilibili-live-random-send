@@ -1,4 +1,4 @@
-import workerTimer from 'WorkTimer.js';
+import workerTimer from './WorkTimer.js';
 debugger;
 const currentInterval = workerTimer.setInterval(() => {
     console.log('===================================================');
