@@ -1,11 +1,13 @@
-## 安装使用
+## 该脚本功能已重做成浏览器应用扩展，故不再维护
 
-[B站直播间简化](https://scriptcat.org/zh-CN/script-show-page/2802 "点击安装Tampermonkey脚本进行使用") <----中国大陆可直连  
-[B站直播间定时发随机弹幕脚本](https://greasyfork.org/zh-CN/scripts/446725 "点击安装Tampermonkey脚本进行使用") <----需工具访问  
-*(这俩功能完全一样，只是迁移平台时改了个名而已)*
+Edge 浏览器：[魔法盒子：直播间工具](https://microsoftedge.microsoft.com/addons/detail/kjjcjbjmcekhlfnhaiidoonchkkianmk "跳转Edge扩展应用商店")  
+Chrome 浏览器：由于Google被调教得异常敏感，一不小心就来个大的把账号封了，所以Chrome浏览器这边暂时需要到 [发布页](https://github.com/Gamyou/LiveRoomTool/releases "跳转到发布页") 下载、解压、加载扩展应用程序。
 
-## <font color="#ff0000">**PS：**</font>
-&emsp;&emsp;现多数时候已懒得登录B站账号，所以有些功能出了问题很难第一时间发现，在使用过程中若有问题或有好的提议，麻烦动动小手反馈一下。
+## ~~安装使用~~
+
+~~[B站直播间简化](https://scriptcat.org/zh-CN/script-show-page/2802 "点击安装Tampermonkey脚本进行使用") <----中国大陆可直连~~  
+~~[B站直播间定时发随机弹幕脚本](https://greasyfork.org/zh-CN/scripts/446725 "点击安装Tampermonkey脚本进行使用") <----需工具访问~~  
+*~~(这俩功能完全一样，只是迁移平台时改了个名而已)~~*  
 
 ## 背景
 &emsp;&emsp;玩B站直播间的弹幕游戏，想在深夜成为一个“机器人”，机械发送弹幕，所以搜了下站内B站直播间发送弹幕的脚本，发现不是不能动态停止，就是不能动态更新要发的弹幕内容，再或者需要刷新页面才能对设定的定时间隔生效、又或者没有随机选取弹幕发送等，故还是自己搞一个算了。
