@@ -5,6 +5,8 @@ Edge 浏览器：[魔法盒子：直播间工具](https://microsoftedge.microsof
 Chrome浏览器：[魔法盒子：直播间工具](https://chromewebstore.google.com/detail/mnjgbkmedniafgpepbiklipnbpimejfm "跳转Chrome扩展应用商店")  
   
 ~~Chrome 浏览器：由于Google被调教得异常敏感，一不小心就来个大的把账号封了，所以Chrome浏览器这边暂时需要到 [发布页](https://github.com/Gamyou/LiveRoomTool/releases "跳转到发布页") 下载、解压、加载扩展应用程序。~~  
+  
+手动安装请到 [发布页](https://github.com/Gamyou/LiveRoomTool/releases "跳转到发布页") 下载  
 
 ## ~~安装使用~~
 
