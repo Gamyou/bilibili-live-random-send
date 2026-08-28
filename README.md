@@ -1,7 +1,10 @@
 ## 该脚本功能已重做成浏览器应用扩展，故不再维护
 
 Edge 浏览器：[魔法盒子：直播间工具](https://microsoftedge.microsoft.com/addons/detail/kjjcjbjmcekhlfnhaiidoonchkkianmk "跳转Edge扩展应用商店")  
-Chrome 浏览器：由于Google被调教得异常敏感，一不小心就来个大的把账号封了，所以Chrome浏览器这边暂时需要到 [发布页](https://github.com/Gamyou/LiveRoomTool/releases "跳转到发布页") 下载、解压、加载扩展应用程序。
+  
+Chrome浏览器：[魔法盒子：直播间工具](https://chromewebstore.google.com/detail/mnjgbkmedniafgpepbiklipnbpimejfm "跳转Chrome扩展应用商店")  
+  
+~~Chrome 浏览器：由于Google被调教得异常敏感，一不小心就来个大的把账号封了，所以Chrome浏览器这边暂时需要到 [发布页](https://github.com/Gamyou/LiveRoomTool/releases "跳转到发布页") 下载、解压、加载扩展应用程序。~~  
 
 ## ~~安装使用~~
 
